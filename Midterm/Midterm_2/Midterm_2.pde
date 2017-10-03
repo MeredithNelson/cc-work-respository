@@ -3,15 +3,15 @@ float x = 0;
 float circleY = 10;
 int value = 5;
 
-
 void setup(){
   size(600,600);
   cone = loadImage("icecreamcone.png");
   
-  
 }
 
 void draw() {
+  
+  //click and hold onto mouse in order to work!
   
   int value = 5;
      if (mousePressed == true) {
@@ -52,15 +52,7 @@ void draw() {
   if (circleY > 220) {
     circleY = 0;
   }
-  
-   //circle 3 vanilla
-  fill(236, 210, 178);
-  stroke(248,227,215);
-  strokeWeight(10);
-  circleY= circleY + .25;
-  if (circleY > 220) {
-    circleY = 0;
- }
+ 
      }
 
 }
